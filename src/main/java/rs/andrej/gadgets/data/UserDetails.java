@@ -40,7 +40,7 @@ public class UserDetails {
 
     @Override
     public String toString() {
-        return "UserDetails{" + "idUserDetails=" + idUserDetails + ", email=" + email + ", phone=" + phone + '}';
+        return "Users personal details :{" + "Email : " + email +  ", Phone=" + phone + '}';
     }
     
     
