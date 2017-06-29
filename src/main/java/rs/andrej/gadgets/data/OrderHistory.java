@@ -40,7 +40,7 @@ public class OrderHistory {
 
     @Override
     public String toString() {
-        return "OrderHistory{" + "idOrderHistory=" + idOrderHistory + ", attribute=" + attribute + ", idPurchase=" + idPurchase + '}';
+        return "Your previous orders :{" + "Product SKU number :" + idOrderHistory + ", name :=" + attribute + ", Your purchase reference :=" + idPurchase + '}';
     }
     
     
