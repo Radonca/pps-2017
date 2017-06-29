@@ -51,7 +51,7 @@ public class UserAdress {
 
     @Override
     public String toString() {
-        return "UserAdress{" + "idUserAdress=" + idUserAdress + ", city=" + city + ", street=" + street + ", country=" + country + '}';
+        return "Users Aress :{" + " City =" + city + ",, Street=" + street + ", Country=" + country + '}';
     }
 
     
