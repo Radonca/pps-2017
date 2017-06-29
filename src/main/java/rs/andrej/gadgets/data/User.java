@@ -120,7 +120,7 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" + "name=" + name + ", surrname=" + surrname + ", dateOfBirth=" + dateOfBirth + ", username=" + username + ", password=" + password + ", credit=" + credit + ", userDetails=" + userDetails + ", userAdress=" + userAdress + ", orderHistory=" + orderHistory + '}';
+        return "New User created :{" + "name=" + name + ", surrname=" + surrname + ", Date of Birth :=" + dateOfBirth + ", Username=" + username + ", Password=" + password + ", Credit=" + credit +  '}';
     }
 
     
