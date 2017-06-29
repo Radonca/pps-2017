@@ -25,7 +25,6 @@ public class UserService {
         try {
             con = ResourcesManager.getConnection();
 
-            //more than one SQL statement to execute, needs to be a single transaction
             con.setAutoCommit(false);
 
             UserDao.getInstance().insert(user, con);
