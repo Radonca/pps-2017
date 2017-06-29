@@ -33,7 +33,7 @@ public class Category {
 
     @Override
     public String toString() {
-        return "Category{" + "idCategory=" + idCategory + ", name=" + name + '}';
+        return "The category of the product is :{ The name is :=" + name + '}';
     }
       
     
